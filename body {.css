@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Dark background for a high-tech look */
+    color: #fff;
+    font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+.scanner-ui {
+    width: 380px;
+    background: #1a1a1a; /* Dark panel background */
+    padding: 20px;
+    border: 2px solid #333;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); /* Glowing effect */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Spacing for map and controls */
+    border-bottom: 2px solid #333;
+    margin-bottom: 15px;
+}
+
+.location-map {
+    color: #ffffff;
+}
+
+.location-map p {
+    font-size: 20px;
+    margin: 0;
+    color: #ff2d2d; /* Bright color for location */
+}
+
+.location-map small {
+    font-size: 10px;
+    color: #888;
+}
+
+.precincts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.precinct {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    background: #2a2a2a; /* Dark background for crime reports */
+}
+
+.precinct h2 {
+    font-size: 16px;
+    color: #ff2d2d; /* Highlighted text color */
+}
+
+.precinct p {
+    font-size: 12px;
+    color: #f0f0f0;
+    margin: 2px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #ff2d2d; /* Button color */
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #ff2d2d; /* Hover effect */
+    color: #fff;
+}
+
+.logout {
+    color: #f53b57; /* Logout button color */
+}
+
+.logout:hover {
+    background-color: #f53b57; /* Hover effect */
+}
